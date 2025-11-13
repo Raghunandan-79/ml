@@ -1,0 +1,6 @@
+changing the dimensions without modifying the 
+array. For example: 1d --> 2d array
+                    2d --> 3d array
+                    arr.reshape()
+
+elements will remain same 

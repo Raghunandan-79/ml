@@ -1,0 +1,6 @@
+Indexing -> selecting single element
+Slicing -> getting some part from array
+fancy Indexing -> accessing and manipulating values
+using arrays of indices
+Boolean masking -> gives condition and get some 
+data
