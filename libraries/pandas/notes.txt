@@ -108,5 +108,3 @@ DataFrame:
 Before analyzing or manipulating data you need to give 2 answers;
         1. How big is your data
         2. What are the names of columns
-
-shape and column
