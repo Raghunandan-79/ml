@@ -1,0 +1,105 @@
+Data Manipulation:
+Changing, organizing, or preparing data to make it useful and easier to 
+understand
+Goal: To clean, transform, and structure raw data for better usability
+Example: 
+    Organizing a Grocery list
+    Fixing errors in a student record
+
+Data Analysis:
+Extracting patterns, trends, and insights from the data to solve problems.
+Goal: To answer questions or identify trends using the data
+Example:
+    Analyzing Sales Trends
+    Tracking Fitness Progress
+
+Key Diffrences
+
+Aspect  | Data Manipulation           | Data Analysis
+        |                             |
+Focus   | Preparing and cleaning data | Extracting insights from prepared data
+        |                             |
+Goal    | Organize and structure raw  | Find patterns, trends, and solve 
+        | data                        | problems
+        |                             |
+Example | Fixing erros in a student's | Analyzing which student scored the 
+        | grade sheet                 | highest
+
+Who Created Pandas and Why ?
+
+Wes Mckinet, a data scientist and software developer, created pandas in 2008
+
+Reason for Creation:
+
+1. While working at AQR Capital Management, Wes faced challenges Analyzing
+   large financial datasets.
+
+2. Existing tools like Excel were inefficient for large-scale data cleaning
+   and analysis.
+
+What is Pandas ?
+
+1. Pandas is a powerful and popular python library designed for data 
+   manipulation and data analysis
+
+2. It simplifies working with structured datasets like tables, spreadsheets,
+   or time-series data
+
+What Makes Pandas Unique ?
+
+key featurs:
+        a. Works seamlessly with structured data formats like CSV and Excel.
+        b. Handling missing values easily.
+        c. Built on NumPy for fast computations.
+
+Why use Pandas ?
+        a. Performance: Handles millions of rows efficiently.
+        b. Ease of Use: Beginner friendly syntax for cleaning and transforming
+                        data.
+        c. Integration: Works with libraries like Matplotlib (visualization)
+                        and Scikit-learn (ml)
+
+Real-Life Examples of Pandas in Action
+
+Finance: 
+        Analyzing time-series data like stock prices to identify market
+        trends.
+
+Retail:
+        Tracking inventory and finding the most sold products in a store.
+
+Healthcare:
+        Analyzing patient records and outcomes from clinical trials.
+
+How to get started with pandas
+
+Install Pandas
+pip install pandas
+
+Using conda (Anaconda):
+conda install pandas
+
+Using uv:
+uv pip install pandas
+
+Import Pandas:
+
+Use the following shorthand in your python script:
+import pandas as pd
+
+Key Pandas Concepts
+
+Series:
+        1. A series is one-dimensional labeled array that can hold any data
+           type: integers, floats, strings, or even Python objects. Each
+           element in the series has a unique label called an index.
+
+        2. It is often used to track changes or patterns over time, such
+           as daily temperatures, stock prices, or sales revenue.
+
+DataFrame:
+        1. A DataFrame is a 2D labeled data structure in pandas, similar
+           to a table in a database, an Excel spreadsheet, or a SQL table.
+        2. It consists of rows and columns, where:
+                a. Rows have indices (labels).
+                b. Columns have names (labels).

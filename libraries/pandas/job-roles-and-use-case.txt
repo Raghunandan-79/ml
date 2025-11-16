@@ -1,0 +1,13 @@
+pandas job role and use case
+1. Data Scientist -> processing data, feature selection, and exploratory data
+analysis
+2. Data Analyst -> Cleaning and Summarizing data, generating insights
+3. Machine Learning Engineer -> preparing datasets for training ml models
+4. Artificial Intelligence Engineer -> Handling large datasets for AI model
+development
+5. Business Analyst -> Analyzing business data to improve decision-making
+6. Financial Analyst -> Analyzing financial trends, managing reports
+7. Research Scientist -> Handling research datasets, statistical analysis
+8. Marketing Analyst -> Analyzing customer behaviour and campaign data
+9. Operations Analyst -> Optimizing operational processes through data insights
+10. Software Developer -> Crafting backend systems that process and analyze data
