@@ -1,0 +1,21 @@
+1. Data Point -> Dataset have single pair of value 1 for x-axis and 1 for y-axis 
+2. X-axis / Y-axis -> horizontal line where we put input data, y axis is vertical line
+                      for output data 
+3. Figure -> Entire canvas or paper where graph lies / whole window
+4. Axes -> Graph box. Actual area where graph is plotted / rectangular plot inside
+            window
+5. Plot -> Actual shape which we draw inside axes
+6. Marker -> Symbol or dot which we use to make sure all datapoints are visible
+7. Line Style -> how lines are drawn for datapoints
+8. Color -> what will be the color
+9. Legend -> what a line or color represent
+10. Label -> when we have to explain what x and y axis does
+11. Title -> headline
+12. Grid -> horizontally or vertically line in background of plot 
+14. Function -> Block of code that performs specific Function
+15. Method -> A funtion that belong to an object
+16. Parameters -> Informations that we give to our functions
+17. Keyword Arguments -> we pass them with value inside functions
+18. Object-Oriented API 
+19. DPI -> Dots Per Inch
+20. Backend -> TkatAgg, WebAgg
