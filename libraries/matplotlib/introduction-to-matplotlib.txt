@@ -1,0 +1,30 @@
+Before creating matplotlib in early 2000s there was a problem how can we create
+graphs and charts using python. People have to use matlab but it was expensive, 
+paid and difficult. They needed two things:
+    1. Simple syntax
+    2. Python
+
+John D. Hunter, A neurobiologist the author of Matplotlib. He was working on a 
+brain image data. There he needed high quality images but he have to use matlab
+there were many laptop and he found a solution that he should make a library
+which can:
+    1. Plot graphs
+    2. Free and open source.
+
+What is Matplotlib ?
+A python library using which we can
+    1. Line graphs -> find trend overtime
+    2. Bar chart -> compare different groups
+    3. Pie chart -> show parts of a whole
+    4. Histogram -> frequency or distribution
+    5. Scatter plot -> find relationship between two points
+    6. Custom graphics
+
+How to install ?
+    1. pip3 install matplotlib
+    2. uv pip install matplotlib
+
+Importing:
+import matplotlib.pyplot as plt 
+matplotlib -> main package
+pyplot -> plots 

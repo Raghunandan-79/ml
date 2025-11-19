@@ -1,0 +1,43 @@
+What is Data Visualization ?
+Converts boring data into colourful charts, images, etc
+
+Why Data Visualization ?
+    1. Data Science
+    2. Business Marketing
+    3. Healthcare
+    4. Finance
+    5. Education
+    6. Government/Policy
+
+Note: Pictures speak louder than numbers
+
+Python libraries for Data Visualization:
+    1. Matplotlib -> Basic and powerful plotting
+    2. Seaborn -> Statistical plots built on Matplotlib
+    3. Plotly -> Interactive, web-based visualizations
+    4. Pandas (plot) -> Quick plots from DataFrames
+    5. Bokeh -> Interactive visuizations, well suited for large datasets and web-based
+                applications
+
+Top 5 advantages of Data Visualization
+
+Characteristic            ->   Advantage
+Save Time                 ->   Understand data quickly
+Easy Communication        ->   Explain data to anyone
+Spot Trends and Patterns  ->   See data's movement
+Better Decision Making    ->   Make informed choices
+Handles Big Data Well     ->   Understand thousands of rows
+
+
+Without Data Visualization      |   With Data Visualization
+1. Hard to read and Understand  |   Easy
+2. 1000- rows slow              |   Quick
+3. Cannot find Trends           |   Can find trends easily
+4. Meeting last 1 year data     |   Graphs, charts and diagrams
+5. Human error                  |   Minimize errors
+
+4 points that you need to know
+    1. Human brain process images 60,000 times faster
+    2. Visualization can lie
+    3. 90% big data projects fail
+    4. Brain can hold about 7 pieces of information at once (Miller's law)
