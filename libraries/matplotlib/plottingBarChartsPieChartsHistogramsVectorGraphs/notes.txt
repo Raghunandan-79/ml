@@ -1,0 +1,10 @@
+Data Visualization Tools and Their Purposes
+
+1. Bar Charts: a. Category Comparison
+               b. Data Analysis
+
+2. Histograms: a. Numerical Distribution
+               b. Data Insights
+
+3. Pie Charts: a. Proportion Illustration
+               b. Whole Representation
