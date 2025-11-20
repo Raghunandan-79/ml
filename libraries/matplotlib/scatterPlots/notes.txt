@@ -1,0 +1,26 @@
+Used mostly in machine learning for clustering
+
+Problem: Suppose you are analyzing a students data
+x axis = hours studied
+y axis = exam scores
+
+We need to find relations
+more study = more marks
+more marks = less scores
+
+To solve above Problem we use scatter plot which will represt each data 
+point with a dot in the graph
+
+A scatterplot is a graph where each point represent one observation with 
+two values
+
+Where it is used ?
+    1. Find the correlation between two variables
+    2. It is used in machine learning in regression
+
+    'o' -> circle
+    's' -> square
+    '^' -> upward triangle
+    'D' -> diamond
+    'x' -> cross
+    '+' -> plus sign
