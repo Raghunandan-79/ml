@@ -1,0 +1,17 @@
+Reasons
+    1. To convert numbers to pictures
+    2. Compare data and to find trend or recognize pattern
+
+Plotting Functions
+    1. Grid -> plt.grid()
+    2. Display -> plt.show()
+    3. Axis Limits -> a. plt.xlim()
+                      b. plt.ylim()
+    4. Axis Ticks -> a. plt.xticks()
+                     b. plt.yticks()
+    5. Legend -> plt.legend()
+    6. Title -> plt.title()
+    7. Plotting -> plt.plot() -> line-graphs
+    8. Labels -> a. plt.xlabel()
+                 b. plt.ylabel()
+    9. Grid -> plt.grid()
