@@ -1,0 +1,38 @@
+What is Subplot ?
+    linechart(sales)
+    barchart(expenses)
+
+    above both must be on same canvas
+
+Why they are useful ?
+    1. Compare multiple charts side-by-side
+    2. Space reduction
+    3. Quickly analyze mostly used in EDA
+
+1. plt.subplot():
+    a. Grid Layout
+    b. Quick Creation 
+
+2. sharex=True, sharey=True
+    a. Shared X-axis
+    b. Shared Y-axis 
+
+3. ax.set_title(), fig.suptitle()
+    a. Subplot Titles
+    b. Figure Title
+
+4. plt.subplots()
+    a. Object-Oriented
+    b. Preffered Method
+
+5. plt.tight_layout()
+    a. Automatic Adjustment
+    b. Overlap Fix
+
+6. ax.text(), ax.annotate()
+    a. Text Addition
+    b. Annotation Insertion
+
+7. fig.subplots_adjust()
+    a. Manual Adjustment
+    b. Spacing Control
