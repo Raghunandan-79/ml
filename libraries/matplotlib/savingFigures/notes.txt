@@ -1,0 +1,25 @@
+Problem Statement
+
+Why we need to save the figurs ?
+    We made a plot and someone ask to show and now everytime we will not open 
+    jupyter notebook and if we save we can add it to any document
+
+Solution: 
+    Matplotlib's 'savefig()' function: Saving Visualization
+
+    1. Format:
+        a. PNG
+        b. PDF 
+        c. SVG 
+
+    2. Filename:
+        a. Name
+        b. Path
+
+    3. Future Use:
+        a. Analysis
+        b. Presentation
+
+    4. Sharing:
+        a. Collaboration
+        b. Publication
