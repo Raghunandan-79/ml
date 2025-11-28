@@ -1,0 +1,56 @@
+What is a Database ?
+=> A structured collection of data is called as Database. We can use database to store, manage and retrive data 
+in an efficient way
+
+Types of Database:
+	1. Relational Databases (SQL Databases): Data is stored in tables which contains rows and columns. There 
+						 is a query language known as Structured Query Language used for 
+						 relational databases.
+		a. MySQL
+		b. PostgreSQL
+		c. Oracle
+		d. Microsoft SQL Server
+
+	2. NoSQL Databases: Data is stored in an unstructured way
+		a. MongoDB
+		b. Fitebase
+		c. Cassandra
+
+
+My SQL Unified Strength
+	1. Speed and Reliability
+	2. Ease and Learning
+	3. Free and Open Source
+
+SQL Commands:
+	1. Data Manipulation:
+		a. INSERT INTO
+		b. UPDATE
+		c. DELETE
+
+	2. Creating Tables:
+		a. CREATE TABLE
+		Example: New Table
+
+	3. Modifying Tables:
+		a. ALTER TABLE
+		Example: Modify Structure
+
+	4. Permission Management:
+		a. GRANT
+		b. USE database_name
+
+Querying for Clarity: Database Insights
+	1. Show All Records
+	2. Select Specific Columns
+	3. Filter Records
+	4. Count Records
+	5. Calculate Average
+
+Commands: Giving databse a command to get something
+Queries: Getting something out of the database
+
+Basic Commands:
+	1. CREATE DATABASE database_name;
+	2. DROP DATABASE database_name;
+	3. USE SchoolDB;
