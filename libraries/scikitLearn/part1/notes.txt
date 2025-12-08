@@ -1,0 +1,185 @@
+Why should I focus on mathematics in ML ?
+
+->  Three main reasons
+        1. Understand Models: Gain insight into model functionality to avoid blind 
+        usage.
+
+        2. Debug Effectively: Fix errors and improve model performance.
+
+        3. Train as a Real Scientist: Develop critical thinking and independence.
+
+    Maths Required ?
+    ->  1. Mean: Overall Average (sum of observation / No of observation)
+        2. Median: Middle (If odd count then middle else even count middle 2 average)
+        3. Mode: Most Frequent (most repeated value)
+        4. Percentages
+        5. Ratios
+        6. Basic Algebra
+        7. Plotting X vs Y
+        8. Probability
+        9. Vectors
+        10. Standard Deviation
+
+    Where mean, median and mode is used ?
+    ->  100 students
+        95 boys and 5 girls
+        unbiased gender dataset
+        This is not a balanced dataset. If data is unbalanced model can be 
+        biased
+
+        actual value y_true = what really happened
+        predicted value y_pred = what our model thinks will happen
+
+        __________________________________________________
+         Student | Actual Marks | Predicted Marks | Error| 
+            A    |      60      |      80         |   20 |
+            B    |      90      |      85         |    5 |    
+        --------------------------------------------------
+
+    Percentage
+    -> 60 run, 100 balls
+       60:100 Ratio
+       60% strike rate
+
+    Accuracy = (Corrected Predictions / Total Prediction) / 100
+    Precision = (True Positives / Total Predictive Positives)
+    Recall = (True Positives / Total Actual Positives)
+
+    Percentage - out of 100 - How much happened
+    Ratio - comparison
+    a:b a / b
+
+    p = (part / whole) * 100
+    ratio = part / whole
+
+    total = 100
+    correct = 90
+    wrong = 10
+    Accuracy = (90/100) * 100 = 90%
+
+    Actual 15
+
+    Precision = 15/20 = 0.75 = 75%
+
+    Algebra -> Solve equation with variables
+        y = mx + b 
+    
+        500 daily income
+        1000 joining bonus (fixed for everyone)
+        0 - 1000
+        1 - 1500
+        2 - 2000
+        3 - 2500
+
+        y = mx + b
+        
+        y -> final salary predict, output / result
+        x -> days worked, input
+        m -> 500/day, rate of change
+        b -> 1000 bonus, starting point x = 0
+
+        y =  500 * x + 1000
+
+        4 days 
+        y = 500 * 4 + 1000
+        y = 3000
+
+    Plotting x vs Y
+    -> Hours of studies | exam Marks
+            1           |     40
+            2           |     50
+            3           |     65
+            4           |     75
+            5           |     90
+
+    Vectors
+    ->  To store data about an object in numbers
+        height = 170cm, weight = 65kg
+        [170, 65]
+    
+    Standard Deviation (SD)
+    ->  2 different classes A and B 
+        Class A scored -> 70, 72, 68
+        Class B scored -> 30, 70, 100
+        Class B data is spreadout
+        How much data is spreadout from mean value is told by SD
+
+        It is used to analyze how much consistent the database is
+
+
+
+Foundations of Machine Learning Phase 0
+->  1. Understand ML Purpose
+    2. Differentiate AI, ML, and Deep Learning
+    3. Explore ML Types
+    4. Grasp Core ML Concepts
+    5. Understand Scikit-Learn's Role
+
+    What actually is Machine Learning ?
+    ->  Machine Learning is when a machine or a computer learns from past data 
+        it is known as machine learning. Here computer learns from past data or 
+        experiences. For e.g: Youtube Recommendations, Instagram Reels Feed, 
+        NetFlix Recommending Movies, Bank Fraud Notifications, etc.
+    
+    Artificial Intelligence VS Machine Learning VS Deep Learning
+    ->  1. AI is the outer layer which helps machine to act smartly.
+        2. Machine Learning is the Layer 2 it is a part of AI. It helps machine to
+           learn from data automatically.
+        3. Deep Learning is layer 3 and it is powerful brain which will 
+           be present inside out machine. Automated cars are part of Deep Learning.
+           DL requires a big data.
+        
+        For Example:
+        AI -> Entire School
+        ML -> classes
+        DL -> Student
+
+    Scikit Learn -> It is a powerful library which can be used for training models.
+
+    Types of Machine Learning
+    ->  1. Supervised Learning: Ideal for tasks with labeled data where the 
+                                desired output is known. Here you get both input and 
+                                output
+        2. Unsupervised Learning: Suitable for identifying patterns in unlabeled
+                                  data without explicit guidance. Here you will get
+                                  only input
+        3. Reinforcement Learning: Best for training agents to make decisions through
+                                   interaction with an environment. It is basically
+                                   actions + reward.
+    
+    Core ML Concepts Overview
+    ->  1. Input(x) -> Question
+        2. Output(y) -> Answer
+        3. Model
+        4. Training 
+        5. Testing
+        6. Prediction
+
+    Reasons to Learn Scikit Learn
+    ->  1. 90% problems of machine learning is done in scikit learn
+        2. Junior level roles
+
+Python, Numpy, & Pandas for ML Phase 1
+->  Data Preprocessing
+    ->  Handle Missing Data
+        Encode Categorical Values
+        Feature Scaling
+        Split Data 
+    
+    Mindset
+    ->  1. Treat Data like Raw Vegetables
+        2. Preprocessing before giving to model
+        3. Standout from copy paste coders
+
+    Three methods:
+        1. dropna()
+        2. fillna(value)
+        3. isnull.sum()
+
+    Label Encoding: Replacing every unique categroy in text with number 
+
+    Feature Scaling: making sure all your data columns(features) are on the same 
+    scale so that no one feature domiantes the others. Tools used
+
+        1. Standard scaler
+        2. 
