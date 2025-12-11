@@ -1,0 +1,95 @@
+Mastering Model Evaluation
+->  1. Classification Metrics: Learn to evaluate classification models using accuracy,
+                               precision, recall, and F1-score. 
+
+    
+    2. Confusion Matrix: Understand how to use a confusion 
+                          matrix to analyze model performace. 
+    
+    3. Regression Metrics: Learn to evaluate regression models using MAE, 
+                           MSE, and RMSE.
+    
+    4. Sklearn Metrics: Master the use of 'sklearn.metrics' for comprehensive model
+                        evaluation.
+
+    Accuracy: The percentage of total predictions that model gave correct.
+              Formula of accuracy is accuracy = correct_predictions / total_predictions
+
+    Precision: It tells you how many of the predicted positives were actually positive.
+               It measures accuracy of the positive predictions
+
+               Formula: Precision = True Positive / (True Positive + False Positive)
+
+               TP(True Positive): Model correctly predicted as positive
+               FP(False Positive): Model incorrectly predicted as positive
+
+               Example:
+               If your model predicts 100 emails as spam, but only 80 are spam:
+               
+               Precision = 80/(80 + 20) = 0.8
+
+               Interpretation: Out of all emails predicted as spam, 80% were truly
+                               spam.
+    
+    Recall (a.k.a Sensitivity or True Positive Rate): Recall tell you how many of the 
+                                                      actual positives were correctly
+                                                      identified:
+
+                                                      It measures the ability to find
+                                                      all positive cases.
+
+                                                      Formula: Recall = TP/(TP + FN)
+
+                                                      FN(False Negative): Model failed
+                                                                          to find all
+                                                                          positive
+                                                                          cases.
+                                                      Example:
+                                                      If there are 100 actual spam 
+                                                      emails and you model correctly
+                                                      finds 80:
+
+                                                      Recall = 80/(80 + 20) = 0.8
+
+                                                      Interpretation: The model caught
+                                                                      80% of all spam
+                                                                      emails.
+                                                        
+    F1-Score: The F1-score is the harmonic mean of precision and recall - a balance
+              between the two.
+
+              Formula: F1-score = 2 * (Precision * Recall) / (Precision + Recall)
+
+              It's especially useful when you need to balance Precision and Recall, or
+              when you have uneven class distributions.
+
+              Example:
+              If Precision = 0.8 and Recall = 0.6:
+              
+              F1-score = 2 * (0.8 * 0.6) / (0.8 + 0.6) = 0.685
+
+              Interpretation: Overall balanced performace of the model between 
+                              catching positives and avoiding false alarms.
+
+    Confusion Matrix: It is a table which summarizes how well your classification
+                      model performs by comparing actual labels vs predicted labels.
+
+                      It's especially useful for binary and multi-class classification
+                      problems.
+
+                      1. TP: Machine-Pass, Student-Pass (Correct Guess)
+                      2. TN: Machine-Fail, Student-Fail (Correct Guess)
+                      3. FP: Machine-Pass, Student-Fail (Wrong Guess)
+                      4. FN: Machine-Fail, Student-Pass (Wrong Guess)
+
+    Regression Metrics: It has three things MAE, MSE, RMSE
+        1. MAE(Mean Absolute Error): 1. Take the mistake difference
+                                     2. Remove the minus sign
+                                     3. Add
+                                     4. Divide
+        2. MSE(Mean Squared Error): Squares all mistakes and get their average
+                                        1. Mistakes Square Them
+                                        2. Add
+                                        3. Divide Total
+
+        3. RMSE(Root Mean Squared Error): MSE to normal range or root of mse
