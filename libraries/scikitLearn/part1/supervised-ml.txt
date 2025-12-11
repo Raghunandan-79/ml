@@ -1,0 +1,57 @@
+Supervised Machine Learning Cycle
+
+->  We will train machines for:
+        1. Predict Numbers
+        2. Categories
+
+    Supervised ML Cycle
+    ->  1. Collect Labeled Data
+        2. Train Model
+        3. Make Predictions
+        4. Evaluate Performance
+        5. Refine Model
+
+    Machine Learning Algorithms and Training Process
+    ->              Regression
+                        |       
+              |---------------------|
+        Linear Regression      Classification
+              |                     |
+              |                _____|______________________
+              |                |            |             |              
+              |              Logistic      K-nearest     Decision
+              |             Regression     Neighbours     Tree
+              |                             (KNN)        Classifier
+              |_________________|___________|______________|
+                                    |
+                                Model Training
+                                    |
+                                ____|_____
+                               |          |
+                            .fit()     .predict()
+    
+        1. Regression: When we have to predict some number then we use regression. We will
+                       use linear regression.
+
+        2. Classification: It is used when we have to predict categories. Here model will
+                           learn three things:
+
+                            1. Logistic Regression: It is used for yes or no problems
+                            2. K-Nearest Neighbours(KNN): Decides according to the closest
+                                                          points from data points
+                            3. Decision Tree Classifier: It bascally works as a flowchart
+        
+        3. Model Training: Two ways:
+                                1. .fit(): Train model on basis of data
+                                2. .predict(): Uses trained model to train model
+        
+
+        Regression:
+            1. Linear Regression:   1: Finds a pattern in old data
+                                    2: Straight Line
+                                    3: Line
+                                    y = mx + b 
+            
+            2. Classification: Machine learns from some examples
+            
+            
