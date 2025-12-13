@@ -1,0 +1,10 @@
+Step 1: Load and Understand Data -> pandas
+Step 2: Preprocessing (Clean Data)
+Step 3: Feature Scaling (If needed)
+Step 4: Split the Data
+Step 5: Train a model
+Step 6: Make Prediction
+Step 7: Evaluate the model
+Step 8: Visualize Results
+Step 9: Improve/Experiment (Optional)
+Step 10: Wrap-Up
