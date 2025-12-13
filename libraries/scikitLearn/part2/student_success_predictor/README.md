@@ -54,11 +54,13 @@ To predict a student's success (Pass/Fail) using multiple real-world factors and
 ![Confusion Matrix](Confusion_Matrix.png)
 
 ### Example Console Output  
-# Enter study hours: 7
-# Enter attendance: 85
-# Enter past score: 78
-# Enter sleep hours: 6
-# Prediction based on input: Pass
+```
+Enter study hours: 7
+Enter attendance: 85
+Enter past score: 78
+Enter sleep hours: 6
+Prediction based on input: Pass
+```
 
 
 ---
