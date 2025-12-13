@@ -1,0 +1,104 @@
+Unsupervised Learning Concepts
+->  1. Foundation for data manipulation -> Basic Linear Algebra
+    2. Data distribution characteristics -> Variance and Spread
+    3. Measures of data point separation -> Distance (Euclidean)
+    4. Central tendency measures -> Mean and Centroid
+    5. Core concept of finding patterns in data -> Unsupervised Learning
+
+
+    Unsupervised Learning: When machine is given data without labeling.
+
+    Clustering: Grouping similar things which do not have any label. Here model
+                will find answers on its own. It does not predict else it groups
+                similar datapoints
+    
+    Supervised        |    Unsupervised
+    Ques + answers    |   No Ques no answers
+    learns from known |   learns from raw data
+    labels            |
+
+    Supervised vs Unsupervised Learning
+    ->  Data with Answers: Supervised ML, Predict House Price
+        Data with No Answers: Unsupervised ML, Group Customers
+
+    Mean And Centroid: 
+        1. Mean: It will give us an average of the data.
+        2. Centroid: It is the central point (average) of a cluster, acting as its
+                     representative prototype, calculated as the mean of all data 
+                     points within that cluster.
+    
+    Distance (Euclidean): Formula: distance = √((x2 - x1)² + (y2 - y1)²)
+
+    Variance and Spread: 
+        1. Variance: It measures how much a model's predictions change with different
+                     training data, indicating its sensitivity.
+
+                     [100, 120, 130, 150, 100]
+
+                     variance = ( Σ (xi - μ)² ) / N
+
+                     Average = (100 + 120 + 130) / 3
+                               (350) / 3
+                               150
+
+                     Variance = (100 - 150)^2 + (120 - 150)^2 + (130 - 150)^2
+                                ---------------------------------------------
+                                                    3
+                                2500 + 900 + 400
+                                ----------------
+                                        3
+                                3800
+                                ----
+                                  3 
+                                1266.66         
+        
+        2. Spread: It refers to the dispresion of data points or model outputs from
+                   their average (mean).
+    
+    Linear Algebra in Machine Learning
+    ----------------------------------
+
+    Linear Algebra is the branch of mathematics that deals with vectors, matrices, and linear transformations. 
+    It forms the foundation of many machine learning algorithms and data representations.
+
+    Key Concepts:
+    --------------
+        1. Scalars – Single numerical values.
+        2. Vectors – Ordered lists of numbers representing data points or 
+                     model parameters.
+        3. Matrices – 2D arrays of numbers used for storing datasets and weights.
+        4. Tensors – Generalization of matrices to higher dimensions (used 
+                     in deep learning).
+        5. Dot Product – Measures similarity between two vectors.
+        6. Matrix Multiplication – Core operation for transformations and 
+                                   neural network layers.
+        7. Eigenvalues and Eigenvectors – Used in dimensionality reduction (PCA).
+        8. Determinants and Inverses – Important in solving linear equations and 
+                                       optimization.
+
+    Applications in Machine Learning:
+    ---------------------------------
+        - Representing datasets as matrices (rows = samples, columns = features)
+        - Performing transformations and projections (e.g., PCA)
+        - Calculating gradients in optimization algorithms
+        - Defining weights and activations in neural networks
+        - Expressing loss functions and regularization mathematically
+
+    Essential Formulas:
+    -------------------
+        1. Vector Dot Product: a · b = Σ (ai * bi)
+
+        2. Matrix Multiplication: C = A × B
+
+        3. Transpose: (Aᵀ)ij = Aji
+
+        4. Determinant (2x2): |A| = ad - bc
+
+        5. Eigenvalue Equation: A·v = λ·v
+
+    Conclusion:
+    -----------
+        Linear algebra provides the language and tools that make modern machine 
+        learning possible. From simple regression to deep neural networks, 
+        understanding linear algebra helps you grasp how data is represented, 
+        transformed, and optimized.
