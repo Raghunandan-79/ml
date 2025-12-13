@@ -1,0 +1,35 @@
+Unveiling Data Insights
+->  Effective Data Analysis
+    ->  1. K-Means Clustering:  K-Means is an unsupervised machine learning 
+                                algorithm used to partition data into K distinct, 
+                                non-overlapping clusters based on feature similarity.
+
+                                5-Step Process:
+                                    1. Tell the machine how many groups. k = 3
+                                    2. Draw 3 random points. They are also called 
+                                       group leaders.
+                                    3. Selects Group Leader.
+                                    4. Move Group Leaders to center.
+                                    5. Repeat untill everything is settled.
+
+        2. Elbow Method: The Elbow Method is a technique used to determine the 
+                         optimal number of clusters (K) in K-Means clustering.
+
+        3. Principal Component Analysis: Definition: Principal Component Analysis(PCA)
+                                         is a dimensionality reduction technique 
+                                         used to simplify large datasets by 
+                                         transforming them into a new set of 
+                                         uncorrelated variables called principal 
+                                         components.
+
+        4. Dimensionality Reduction: Dimensionality Reduction is the process of 
+                                     reducing the number of input variables (features)
+                                     in a dataset while retaining as much relevant 
+                                     information as possible.
+
+        5. Cluster Visualization: Cluster Visualization is the graphical
+                                  representation of clustered data to help 
+                                  understand the structure, distribution, 
+                                  and separation of groups (clusters) formed by 
+                                  clustering algorithms like K-Means, DBSCAN, 
+                                  or Hierarchical Clustering.
